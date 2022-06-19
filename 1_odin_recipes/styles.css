@@ -1,0 +1,22 @@
+body {
+    background-color: #F5F5F5;
+}
+h1 {
+        color: blueviolet
+}
+
+.first-title {
+    color: rgb(107, 214, 19);
+  }
+
+h1{
+    color: #F05454;
+}
+#front-mario{
+    width: 500px;
+    height: auto;
+}
+* {
+    border: 2px solid red;
+  }
+  

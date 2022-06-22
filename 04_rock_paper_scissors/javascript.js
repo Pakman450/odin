@@ -58,7 +58,7 @@ function playRound(playerin, computerin) {
 
 }
   
-const playerSelection = "scissor";
+const playerSelection = "paper";
 const computerSelection = computerPlay();
 console.log(computerSelection);
 console.log(playRound(playerSelection, computerSelection));

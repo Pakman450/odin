@@ -1,31 +1,17 @@
 
 
 
+function displayResult(){
+    
+}
 
 function computerPlay(){ 
-    
-
     const randnum = Math.floor(Math.random() * 3)+1;
-    var    result = "";
-
-
-    // if (randnum === 1) {
-    //     result = "rock";
-    // } else if (randnum === 2) {
-    //     result = "paper"
-    // } else {
-    //     result = "scissor"
-    // }
-    
-    
     return randnum; 
 }
 
 
 function playRound(e) {
-
-
-
     var player   = 0;
     var computerin ="";
     var result = "";
@@ -60,8 +46,6 @@ function playRound(e) {
         }
 
     }
-    computerSelection = computerPlay();
-
 }
 
 
